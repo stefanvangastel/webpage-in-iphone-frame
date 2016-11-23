@@ -1,8 +1,6 @@
 # webpage-in-iphone-frame
 This super simple small (selfhosted!) php script shows a given webpage (url) in a iPhone (6) dimension surrounded by an iPhone frame. Many hosted alternatives are out there, though this one you can use on a self-hosted environment and edit to your needs. Planning to add more phone types.
 
-[![stefanvangastel/webpage-in-iphone-frame docker image](http://dockeri.co/image/stefanvangastel/webpage-in-iphone-frame)](https://registry.hub.docker.com/u/stefanvangastel/webpage-in-iphone-frame/)
-
 ## Example
 Live example: [here](http://giix.nl/demo/webpage-in-iphone-frame/index.php?url=http://creativiteiten.nl).
 
@@ -15,6 +13,9 @@ You can either run a container or host the php file yourself.
 
 ### Docker
 `docker run -d -p 80:80 -e URL=http://example.com stefanvangastel/webpage-in-iphone-frame`
+
+
+[![stefanvangastel/webpage-in-iphone-frame docker image](http://dockeri.co/image/stefanvangastel/webpage-in-iphone-frame)](https://registry.hub.docker.com/u/stefanvangastel/webpage-in-iphone-frame/)
 
 ### Webserver
 Make sure you have a webserver that can run PHP and place the contents of this repo in the documentroot. Ten access:
