@@ -4,9 +4,10 @@ This super simple small (selfhosted!) php script shows a given webpage (url) in 
 [![stefanvangastel/webpage-in-iphone-frame docker image](http://dockeri.co/image/stefanvangastel/webpage-in-iphone-frame)](https://registry.hub.docker.com/u/stefanvangastel/webpage-in-iphone-frame/)
 
 ## Example
-Live example: [here](http://giix.nl/demo/webpage-in-iphone-frame/iindex.php?url=http://example.com).
+Live example: [here](http://giix.nl/demo/webpage-in-iphone-frame/index.php?url=http://creativiteiten.nl).
 
-Example of how this will look (50% image size):
+Will look like this (50% image size):
+
 ![Example](https://github.com/stefanvangastel/webpage-in-iphone-frame/blob/master/img/example_half.png)
 
 ## Install
