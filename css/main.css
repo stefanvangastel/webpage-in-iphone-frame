@@ -1,0 +1,151 @@
+/*
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+body{margin: 0}h1{font-size:138.5%}h2{font-size:123.1%}h3{font-size:108%}h1,h2,h3{margin:1em 0}h1,h2,h3,h4,h5,h6,strong,dt{font-weight:bold}optgroup{font-weight:normal}abbr,acronym{border-bottom:1px dotted #000;cursor:help}em{font-style:italic}del{text-decoration:line-through}blockquote,ul,ol,dl{margin:1em}ol,ul,dl{margin-left:2em}ol{list-style:decimal outside}ul{list-style:disc outside}dl dd{margin-left:1em}th,td{border:1px solid #000;padding:.5em}th{font-weight:bold;text-align:center}caption{margin-bottom:.5em;text-align:center}sup{vertical-align:super}sub{vertical-align:sub}p,fieldset,table,pre{margin-bottom:1em}button,input[type="checkbox"],input[type="radio"],input[type="reset"],input[type="submit"]{padding:1px}img{-ms-interpolation-mode:bicubic}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-bottom: 5px;
+    line-height: 100%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+a#viewAllDevices {
+    margin-top: 50px;
+    display: block;
+}
+
+#tools {
+    background: #4c656c;
+    margin: 0px;
+    color: white;
+    height: 45px;
+    display: block;
+    width: 100%;
+}
+
+input#url {
+    padding: 5px 10px 7px 10px;
+    margin-left: 5px;
+    width: 250px;
+    color: white;
+    background: #8a9a9f;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    border-radius: 3px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+.deviceTitle, .jobAd {
+    font-family: georgia, helvetica, arial, sans-serif;
+}
+
+.deviceTitle {
+    font-size: 14px;
+}
+
+.deviceTitle, #devices .deviceWrap, #tools {
+    min-width: 1024px;
+}
+
+.footer_links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer_links a {
+    color: #1BA4D6;;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 1px;
+}
+
+/*
+ * Devices styles start
+ */
+
+#devices {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.deviceWrap {
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 5px 0px 20px 0px;
+    position: relative;
+}
+
+#devices .device {
+    margin: 0 auto;
+    position: relative;
+}
+
+#devices .device .flashingTop,
+#devices .device .flashingBottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#devices .device .flashingTop {
+    top: 0;
+    padding-top: 4px;
+}
+
+#devices .device .flashingBottom {
+    bottom: 0;
+}
+
+#devices iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #d1d1d1;
+}
+
+.iphone-6-portrait {
+    background-image: url(../img/iphone-6-portrait.png);
+    padding: 103px 0 117px 0px;
+}
+
+
+
+span.time {
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.portrait {
+    margin-left: -289px;
+    left: 50%;
+    top: 93px;
+}
+
+/*
+ * Devices styles end
+ */
+
+
+
+
