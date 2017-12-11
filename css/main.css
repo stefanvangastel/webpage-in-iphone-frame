@@ -36,6 +36,20 @@ body {
     margin: 5px 5px 5px 0px;
 }
 
+.title{
+    position: absolute;
+    top: 55px;
+    width:430px;
+    text-align: center;
+    font-size:28px;
+    color:black;
+}
+
+.title a{
+    color:darkblue;
+    text-decoration: none;
+}
+
 #devices .device {
     /* margin-left: 20px ; */
     position: relative;

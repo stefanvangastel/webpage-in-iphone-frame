@@ -62,6 +62,8 @@
 
                 <div class="deviceWrap iphone-6-portrait">
 
+                    <div class="title">Test title</div>
+
                     <div class="device" style="
                             width: 377px;
                             height: 647px;
