@@ -14,6 +14,10 @@ Every `URL_*` get param or environment variable (Docker) will be added as a phon
 
 So you can use it like `http://mywebsite/index.php?URL_1=http://example.com&URL_2=http://foo.bar` to show two phones.
 
+You can extend the `http://foo.bar` example above with a title and optional link by adding these params:
+
+`&URL_2=http://foo.bar&TITLE_2=FooBar&LINK_2=http://moreinfo.com`
+
 ## Install
 You can either run a container or host the php file yourself.
 

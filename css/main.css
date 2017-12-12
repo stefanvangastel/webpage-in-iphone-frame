@@ -37,8 +37,10 @@ body {
 }
 
 .title{
-    position: absolute;
-    top: 55px;
+    position: relative;
+    top: 0px;
+    margin-top:-40px;
+    height:40px;
     width:430px;
     text-align: center;
     font-size:28px;
