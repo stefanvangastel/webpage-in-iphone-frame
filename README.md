@@ -22,17 +22,17 @@ You can extend the `http://foo.bar` example above with a title and optional link
 You can either run a container or host the php file yourself.
 
 ### Docker
-`docker run -d -p 80:80 -e URL_1=http://creativiteiten.nl stefanvangastel/webpage-in-iphone-frame`
+`docker run -d -p 80:80 -e URL_1=http://example.com -e URL_2=http://foo.bar stefanvangastel/webpage-in-iphone-frame`
 
 [![stefanvangastel/webpage-in-iphone-frame docker image](http://dockeri.co/image/stefanvangastel/webpage-in-iphone-frame)](https://registry.hub.docker.com/u/stefanvangastel/webpage-in-iphone-frame/)
 
 ### Webserver
-Make sure you have a webserver that can run PHP and place the contents of this repo in the documentroot. Ten access:
+Make sure you have a webserver that can run PHP and place the contents of this repo in the documentroot. Then access:
 `http://mywebsite/index.php?URL_1=http://example.com`
 
 ## Build
 Build the dockerfile yourself by:
 
 * Cloning this repo
-* Running `docker build -t stefanvangastel/webpage-in-iphone-frame .` in the cloned directory/
+* Running `docker build -t stefanvangastel/webpage-in-iphone-frame .` in the cloned directory
 
